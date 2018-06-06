@@ -71,7 +71,7 @@ public class Main {
             } else if (randomDirection == 1) {
                     elizaAnswer = hedges[randomChoiceHedge] + "\n" + qualifiers[randomChoiceQual];
                     System.out.print(elizaAnswer);
-                printResponse(response, responseHistory);
+                    printResponse(response, responseHistory);
             }
                 responseHistory.add("\n");
                 questionHistory.add("\n");
