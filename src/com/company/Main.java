@@ -86,11 +86,11 @@ public class Main {
 
         System.out.print("\nHere is your response history: \n");
         for (String output : questionHistory) {
-            System.out.print(output);
+            System.out.print(output + " ");
         }
-        System.out.print("\nHere is Eliza's response history: \n");
+        System.out.print("\nHere is Eliza's response history:");
         for (String output : responseHistory) {
-            System.out.print(output);
+            System.out.print(output + " ");
         }
     }
 
